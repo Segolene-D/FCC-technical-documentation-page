@@ -1,0 +1,22 @@
+
+#navbar
+{
+  position: fixed;
+  width: 20%;
+}
+
+main
+{
+  position: relative;
+  left: 20%;
+  width: 80%;
+}
+
+@mediaquery
+{
+  #navbar
+  {
+    position: fixed;
+    top: 0%;
+  }
+}
